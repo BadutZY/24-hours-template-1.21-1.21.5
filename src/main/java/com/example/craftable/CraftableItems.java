@@ -18,13 +18,10 @@ public class CraftableItems implements ModInitializer {
 
         // Debug logging
         LOGGER.info("Custom recipes registered:");
-        LOGGER.info("- Totem of Undying");
-        LOGGER.info("- Elytra");
-        LOGGER.info("- Zombified Piglin Spawn Egg");
 
         // Event untuk debugging
         ServerLifecycleEvents.SERVER_STARTED.register(server -> {
-            LOGGER.info("Server started, checking recipe registration...");
+            LOGGER.info("Server started");
         });
     }
 }
