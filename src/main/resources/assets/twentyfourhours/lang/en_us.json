@@ -1,0 +1,66 @@
+{
+  "config.24-hours.title": "24 Hours MOD Configuration",
+
+  "config.24-hours.category.main": "Main Settings",
+  "config.24-hours.category.manual": "Manual Start Hour",
+  "config.24-hours.category.country": "Country Timezone",
+  "config.24-hours.category.ui": "UI Settings",
+
+  "config.24-hours.enabled": "Enable 24 Hours Mode",
+  "config.24-hours.enabled.tooltip": "When enabled, Minecraft time will sync with real world time (24 hours per day instead of 20 minutes)",
+
+  "config.24-hours.timeMode": "Time Mode",
+  "config.24-hours.timeMode.tooltip": "Choose which time mode to use. Only one mode is active at a time.",
+  "config.24-hours.timeMode.manual": "Manual Start Hour",
+  "config.24-hours.timeMode.country": "Country Timezone",
+
+  "config.24-hours.manual.description": "Set the exact time when the game starts. The game will begin at this specified time and only seconds will progress. Independent of timezone.",
+  "config.24-hours.manualStartHour": "Start Hour (0-23)",
+  "config.24-hours.manualStartHour.tooltip.line1": "Set what hour the game starts at (0-23). Default is 19 (7:00 PM).",
+  "config.24-hours.manualStartHour.tooltip.line2": "Example: if set to 19, the game will start at 19:00 (7:00 PM) and stay there.",
+
+  "config.24-hours.manualStartMinute": "Start Minute (0-59)",
+  "config.24-hours.manualStartMinute.tooltip": "Set what minute the game starts at (0-59). Example: Hour=19, Minute=30 means game starts at 19:30 (7:30 PM).",
+
+  "config.24-hours.country.description": "Use country timezone to automatically sync with real time in the selected country. This ignores the manual start hour setting.",
+  "config.24-hours.selectedCountry": "Selected Country",
+  "config.24-hours.selectedCountry.tooltip": "Choose a country to sync time with its timezone. Select from dropdown list.",
+
+  "config.24-hours.showClock": "Show Clock UI",
+  "config.24-hours.showClock.tooltip": "Display the clock on screen",
+
+  "config.24-hours.clockFormat": "Clock Format",
+  "config.24-hours.clockFormat.tooltip": "Choose between 24-hour format (00:00-23:59) or 12-hour format with AM/PM (12:00 AM - 11:59 PM)",
+  "config.24-hours.clockFormat.24hour": "24-Hour Format",
+  "config.24-hours.clockFormat.12hour": "12-Hour Format",
+
+  "config.24-hours.clockX": "Clock X Position",
+  "config.24-hours.clockX.tooltip": "Horizontal position of the clock on screen",
+
+  "config.24-hours.clockY": "Clock Y Position",
+  "config.24-hours.clockY.tooltip": "Vertical position of the clock on screen",
+
+  "config.24-hours.clockColor": "Clock Text Color",
+  "config.24-hours.clockColor.tooltip": "Color of the clock text",
+
+  "config.24-hours.clockScale": "Clock Scale",
+  "config.24-hours.clockScale.tooltip": "Size scale of the clock (0.5 - 3.0)",
+
+  "config.24-hours.showBackground": "Show Clock Background",
+  "config.24-hours.showBackground.tooltip": "Display a background behind the clock for better visibility",
+
+  "config.24-hours.backgroundColor": "Clock Background Color",
+  "config.24-hours.backgroundColor.tooltip": "Color of the clock background",
+
+  "key.twentyfourhours.openConfig": "Open Config Menu",
+  "category.twentyfourhours": "24 Hours MOD",
+
+  "commands.24hours.enable": "24 Hours Mode enabled!",
+  "commands.24hours.disable": "24 Hours Mode disabled!",
+  "commands.24hours.mode.manual": "Time mode set to Manual Start Hour",
+  "commands.24hours.mode.country": "Time mode set to Country Timezone",
+  "commands.24hours.settime": "Manual start time set to %s:%s",
+  "commands.24hours.country": "Country set to: %s",
+  "commands.24hours.reload": "Config reloaded!",
+  "commands.24hours.status": "24 Hours MOD Status"
+}

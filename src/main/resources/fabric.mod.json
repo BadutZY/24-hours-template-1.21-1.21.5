@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "craftable-items",
-	"version": "1.0.1",
-	"name": "Craftable Items",
-	"description": "Make uncraftable items Craftable",
+	"id": "twentyfourhours",
+	"version": "${version}",
+	"name": "24 Hours MOD",
+	"description": "Make Minecraft day like a real day.",
 	"authors": [
 		"BadutZY"
 	],
@@ -11,26 +11,26 @@
 		"homepage": "https://modrinth.com/user/BadutZY"
 	},
 	"license": "MIT",
-	"icon": "assets/craftable/icon.png",
+	"icon": "assets/twentyfourhours/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.craftable.CraftableItems"
+			"com.example.twentyfourhours.TwentyFourHoursMod"
 		],
-		"fabric-datagen": [
-			"com.example.craftable.CraftableItemsDataGenerator"
+		"client": [
+			"com.example.twentyfourhours.TwentyFourHoursModClient"
+		],
+		"modmenu": [
+			"com.example.twentyfourhours.config.ModMenuIntegration"
 		]
 	},
 	"mixins": [
-		"craftable.mixins.json"
+		"24hours.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.10",
-		"minecraft": "~1.21.4",
+		"minecraft": "~1.21",
 		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
